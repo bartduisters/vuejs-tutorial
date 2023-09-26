@@ -7,6 +7,7 @@ import "./style.css";
 const routes = [
   { path: "/", component: Home },
   { path: '/getting-started', component: () => import('./components/Tutorial/GettingStarted.vue') },
+  { path: '/declarative-rendering', component: () => import('./components/Tutorial/DeclarativeRendering.vue') },
 ];
 
 const router = createRouter({
