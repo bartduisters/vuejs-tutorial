@@ -9,6 +9,7 @@ const routes = [
   { path: '/getting-started', component: () => import('./components/Tutorial/GettingStarted.vue') },
   { path: '/declarative-rendering', component: () => import('./components/Tutorial/DeclarativeRendering.vue') },
   { path: '/attribute-binding', component: () => import('./components/Tutorial/AttributeBinding.vue') },
+  { path: '/event-listeners', component: () => import('./components/Tutorial/EventListeners.vue') },
 ];
 
 const router = createRouter({
